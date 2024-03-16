@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('waether_img.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.inputs {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.inputs input[type="text"] {
+    height: 4rem;
+    width: 20rem;
+    background: #f2f2f2;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 8rem;
+    background: #7e1479;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.inputs input[type="submit"]:hover {
+    background: #2006e7; 
+}
+
+.display {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.wrapper {
+    background-color: rgba(172, 189, 221, 0.8); 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.wrapper h2 {
+    padding: 10px 0;
+    background: #5c99bf;
+    color: white;
+    border-radius: 5px;
+}
+
+.wrapper p {
+    margin: 20px 0;
+    color: #04214c;
+    font-size: 1.1rem;
+}
+
+.wrapper h2 span,
+.wrapper p span {
+    color: #5a3999;
+    font-weight: bold;
+}
